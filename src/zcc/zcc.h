@@ -22,7 +22,7 @@ int snprintf(char * buffer, size_t bufsize, const char * format, ...);
 #ifdef _WIN32
 /* Predefined in 32-bit MS Visual C/C++ and Borland Builder C/C++ */
 #undef PREFIX
-#define PREFIX "c:/z88dk"
+#define PREFIX "P:/Dev/Git/z88dk"
 #endif
 
 #if _MSC_VER >= 1200
